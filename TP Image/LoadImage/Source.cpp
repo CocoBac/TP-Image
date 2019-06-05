@@ -1,9 +1,10 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
+
 using namespace cv;
 using namespace std;
 int main(int argc, char** argv)
-{
+{//MODIFICATION
 	// Lecture de l’image avec la méthode imread ()
 	Mat image = imread("Lena.jpg");
 	if (image.empty())
